@@ -1,0 +1,33 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.Dd May 12, 2016
+.Os
+.Dt TSERIES 1
+.Sh NAME
+.Nm tseries.bin-@PVERSION@
+.Nd MET Norway time series viewer
+.Sh SYNOPSIS
+.Nm
+[\fB\-s\fR \fIsetupfile\fR]
+[\fB\-S\fR \fIsite\fR]
+[\fB\-l\fR \fIlang\fR]
+[\fB\-T\fR \fItitle\fR]
+[\fB\-I\fR \fIinstancename\fR]
+[\fB\-H\fR \fIwdbhost\fR]
+[\fB\-u\fR \fIwdbuser\fR]
+[\fB\-d\fR \fIsection1:key1=token1 section2:key2=token2\fR]
+.Sh DESCRIPTION
+.Nm
+is a time series viewer for weather forecasts and observations.
+
+Please use
+.Nm
+\fB-h\fR for help. It is generally recommended to use a script to
+start tseries.
+
+.Sh SEE ALSO
+https://github.com/metno/tseries
+
+.Sh AUTHOR
+Tseries is written at Met.no, the Norwegian Meteorological Institute.
+This manual page was written by Alexander B\(:urger
+<alexander.buerger@met.no> in May 2016.

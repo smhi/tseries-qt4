@@ -1,0 +1,394 @@
+tseries (7.0.6-1) unstable; urgency=low
+
+  * optional disabling mora streams / fixing timeslider
+  * do not work with undefined miTime
+  * added RRAC_x streams to enable MEPS
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 09 Aug 2016 13:13:09 +0200
+
+tseries (7.0.5-1) unstable; urgency=low
+
+  * bugfix show/hide icons in diana
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Wed, 29 Jun 2016 08:00:00 +0200
+
+tseries (7.0.4-1) unstable; urgency=low
+
+  * added man page
+  * adapt for metlibs-coserver 2.1.0
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 26 May 2016 08:00:00 +0200
+
+tseries (7.0.3-1) unstable; urgency=low
+
+  * print in landscape by default
+  * rename tseries-X.Y.bin to tseries.bin-X.Y
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Fri, 05 May 2016 08:00:00 +0200
+
+tseries (7.0.2-1) unstable; urgency=low
+
+  * removed some old print support classes
+  * bugfixes CMakeLists.txt
+  * fewer compilation warnings
+  * require newest pets2
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 03 May 2016 08:00:00 +0200
+
+tseries (7.0.1-2) unstable; urgency=low
+
+  * removed update-alternatives invocation
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 02 May 2016 08:00:00 +0200
+
+tseries (7.0.1-1) unstable; urgency=low
+
+  * removed MET Norway configuration
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 02 May 2016 08:00:00 +0200
+
+tseries (7.0.0-1) unstable; urgency=low
+
+  * use pets2 6.0.0 (without OpenGL)
+  * CMake build
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Thu, 28 Apr 2016 08:00:00 +0200
+
+tseries (6.9.3-1) unstable; urgency=low
+
+  * removed setDirectRendering
+  * moved print-initialising from start to print() to avoid startup delay
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 19 Feb 2016 09:14:23 +0100
+
+tseries (6.9.2-1) unstable; urgency=low
+
+  * added test for lustre-disk
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 09 Feb 2016 13:08:19 +0100
+
+tseries (6.9.1-1) unstable; urgency=low
+
+  * added lustreCheck to script
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 15 Dec 2015 12:52:43 +0100
+
+tseries (6.9.0-2) UNRELEASED; urgency=medium
+
+  * added start option for VGL
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 30 Oct 2015 08:44:37 +0000
+
+tseries (6.9.0-1) unstable; urgency=low
+
+  * Added Mywave-wam datastream
+  * Fixed a bug in reading wave and ocean models
+  * Added setup option to disable datasources from tabs (disabled deprecated WDB tab)
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 19 Oct 2015 09:15:53 +0200
+
+tseries (6.8.1-1) unstable; urgency=low
+
+  * Fix in case of undef data (fimex)
+  * Changed format for runtimes to ensure correct sorting
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 22 May 2015 12:12:30 +0200
+
+tseries (6.8.0-2) unstable; urgency=low
+
+  * New build with new tsData for ensemble precipitation support (fimex)
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 04 Mar 2015 13:42:47 +0100
+
+tseries (6.8.0-1) unstable; urgency=low
+
+  * added multidimensional arrays for eps processing in fimex stream
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 27 Feb 2015 13:39:08 +0100
+
+tseries (6.7.0-1) unstable; urgency=low
+
+  * Added search in halo placedatabase
+  * Added target button in fimexdialog
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 12 Dec 2014 13:13:09 +0100
+
+tseries (6.6.0-1) unstable; urgency=low
+
+  * Adaption to search filter - setCurrent to first item in filter
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 21 Oct 2014 12:01:59 +0200
+
+tseries (6.5.3-1) unstable; urgency=low
+
+  * GFS timeline quick fix (test for basetimeline)
+  * LC_NUMERIC=C due to problems at VV
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Thu, 26 Jun 2014 10:26:53 +0200
+
+tseries (6.5.2-1) unstable; urgency=low
+
+  * removed LC_NUMERIC
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 24 Jun 2014 13:48:55 +0200
+
+tseries (6.5.1-1) unstable; urgency=low
+
+  * fixed fimextab cut and paste
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 24 Jun 2014 10:58:35 +0200
+
+tseries (6.5.0-1) unstable; urgency=low
+
+  * Changed fimextab
+  * added a stationfilter
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 24 Jun 2014 07:12:59 +0200
+
+tseries (6.4.2-2) unstable; urgency=low
+
+  * build with fimex 0.51
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 25 Feb 2014 10:16:23 +0100
+
+tseries (6.4.2-1) unstable; urgency=low
+
+  * Patch to put the fimex configure into the FimexStream constructor 
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 22 Jan 2014 13:50:04 +0100
+
+tseries (6.4.1-1) unstable; urgency=low
+
+  * Added degree of freedom to fimex input in tseries.ctl (parametertype)
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 21 Jan 2014 13:13:29 +0100
+
+tseries (6.4.0-1) unstable; urgency=low
+
+  * Documentation moved to the web
+  * Added feature - fimex configfile
+  * Added feature - nowtime as formatted string available in setup
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 17 Jan 2014 13:31:50 +0100
+
+tseries (6.3.1-1) unstable; urgency=low
+
+  * Fixed problem with missing runtimes in station  modus
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 16 Dec 2013 09:40:37 +0100
+
+tseries (6.3.0-1) unstable; urgency=low
+
+  * enabled multithreaded reading of fimex streams
+  * progress bar
+  * added PVERSION to path for standard setup search
+  * cached Klima query
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Thu, 05 Dec 2013 12:32:57 +0100
+
+tseries (6.2.3-1) unstable; urgency=low
+
+  * added function to use filename instead of runtime in fimex (for files without runtime)
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 25 Nov 2013 08:35:50 +0100
+
+tseries (6.2.2-1) unstable; urgency=low
+
+  * fixed small problem under config read for fimex
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 19 Nov 2013 14:14:08 +0100
+
+tseries (6.2.1-1) unstable; urgency=low
+
+  * fixed problem with quba connections
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 18 Nov 2013 13:38:21 +0100
+
+tseries (6.2.0-1) unstable; urgency=low
+
+  * moved setup file and stylefiles into seperat package tseriesconfig
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 12 Nov 2013 13:33:35 +0100
+
+tseries (6.1.1-1) unstable; urgency=low
+
+  * setup file change - fixed arome norway for vtk
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 11 Nov 2013 08:01:48 +0100
+
+tseries (6.1.0-1) unstable; urgency=low
+
+  * added glob based fimex stream reader
+  * added automatic read of new fimex files
+  * added fimex mix of different streams
+  * added t2m from hirlam500m to meteogram
+  * added new style accumprecip
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 08 Nov 2013 10:28:48 +0100
+
+tseries (6.0.2-1) unstable; urgency=low
+
+  * fixed crash-with-empty-fimex bug
+  * added fimex parameter filter
+  * reinjected AROME-Arctic
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 21 Oct 2013 08:56:45 +0200
+
+tseries (6.0.1-1) unstable; urgency=low
+
+  * setup file fixes for arome cloud stack
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 25 Sep 2013 12:12:04 +0200
+
+tseries (6.0.0-1) unstable; urgency=low
+
+  * Tseries 6.0
+  * added netcdf fimex stream 
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 18 Sep 2013 12:19:19 +0200
+
+tseries (5.3.7-1) unstable; urgency=low
+
+  * removed stream hirlam4 
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Sun, 09 Dec 2012 13:00:29 +0100
+
+tseries (5.3.6-1) unstable; urgency=low
+
+  * added new stream - harmonie25 for svalbard
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 05 Dec 2012 08:51:09 +0100
+
+tseries (5.3.5-1) unstable; urgency=low
+
+  * added control to all eps diagrams
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Tue, 04 Dec 2012 08:35:26 +0100
+
+tseries (5.3.4-1) unstable; urgency=low
+
+  * added t2m control run to eps diagram
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Mon, 03 Dec 2012 14:38:16 +0100
+
+tseries (5.3.3-1) unstable; urgency=low
+
+  * added QNH observation
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 30 Nov 2012 12:28:30 +0100
+
+tseries (5.3.2-2) unstable; urgency=low
+
+  * and now .. launcher in the correct category
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 23 Nov 2012 12:50:00 +0100
+
+tseries (5.3.2-1) unstable; urgency=low
+
+  * Provides tseries
+  * placed launcher in Science
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Fri, 23 Nov 2012 12:17:10 +0100
+
+tseries (5.3.1-1) unstable; urgency=low
+
+  * setup file changes
+  * removed um.1km
+  * added harmonie.1km
+  * distributed eps style
+  * fixed opdata_local trouble
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Thu, 20 Sep 2012 12:38:47 +0200
+
+tseries (5.3.0-1) unstable; urgency=low
+
+  * testing package uniqueness
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Thu, 23 Aug 2012 14:55:18 +0200
+
+tseries (5.2~rc1-2) unstable; urgency=low
+
+  * fixed launcher naming
+
+ -- Juergen Schulze <juergen.schulze@met.no>  Wed, 22 Aug 2012 13:33:03 +0200
+
+tseries (5.2~rc1-1) precise; urgency=low
+
+  * first version adapted to precise 64 bit 
+
+ -- Juergen Schulze <j.schulze@met.no>  Tue, 07 Aug 2012 12:52:19 +0200
+
+tseries (5.1.2-ubuntu1) lucid; urgency=low
+
+  * fixed invisible axis
+  * fixed vanishing stations
+
+ -- Juergen Schulze <j.schulze@met.no>  Wed, 09 Nov 2011 12:04:24 +0100
+
+tseries (5.1.1-ubuntu1) lucid; urgency=low
+
+  * fixed sidebar 
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 24 Oct 2011 08:39:48 +0200
+
+tseries (5.1.0-ubuntu3) lucid; urgency=low
+
+  * get observations in utc - not nmt
+
+ -- Juergen Schulze <j.schulze@met.no>  Fri, 14 Oct 2011 10:45:02 +0200
+
+tseries (5.1.0-ubuntu2) lucid; urgency=low
+
+  * setup fixes - wind in knots 
+
+ -- Juergen Schulze <j.schulze@met.no>  Fri, 23 Sep 2011 08:25:33 +0200
+
+tseries (5.1.0-ubuntu1) lucid; urgency=low
+
+  * Interface to read from klimadb implemented
+  * new style for EPS precipitation plots
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 19 Sep 2011 09:07:29 +0200
+
+tseries (5.0.1-ubuntu4) lucid; urgency=low
+
+  * fixed deafukt printer problem 
+
+ -- Juergen Schulze <j.schulze@met.no>  Thu, 23 Sep 2010 11:27:04 +0200
+
+tseries (5.0.1-ubuntu3) lucid; urgency=low
+
+  *  more setup trouble under debian 
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 20 Sep 2010 12:54:12 +0200
+
+tseries (5.0.1-ubuntu2) lucid; urgency=low
+
+  * new ubuntu release for lucid
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 20 Sep 2010 12:16:10 +0200
+
+tseries (5.0.1-ubuntu1) hardy; urgency=low
+
+  * wdb support debugged and ready to release
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 31 May 2010 10:40:09 +0200
+
+tseries (5.0.0-ubuntu1) hardy; urgency=low
+
+  * tseries with on demand interpolation by WDB support
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 10 May 2010 08:52:04 +0200
+
+tseries (4.1.0-ubuntu2) hardy; urgency=low
+
+  * Full Qt4 transformation - disabled Qt3 support
+
+ -- Juergen Schulze <j.schulze@met.no>  Mon, 22 Feb 2010 13:43:04 +0100
+
+tseries (4.1.0-ubuntu1) stable; urgency=low
+
+  * Initial release
+  * tseries-test_4.1.0-ubuntu1_i386.deb
+
+ -- Juergen Schulze <juergens@tko2698.pc.met.no>  Sun, 29 Nov 2009 20:30:36 +0100

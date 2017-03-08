@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@ --parallel
+
+.PHONY: override_dh_strip override_dh_auto_install
+override_dh_strip:
+	dh_strip --dbg-package=tseries-@METNO_VERSION@-dbg
+
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/tseries-@METNO_VERSION@
